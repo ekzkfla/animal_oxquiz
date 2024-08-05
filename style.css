@@ -1,11 +1,11 @@
 body {
   background-color: #fce3c2;
 }
-.background {
+/* .background {
   background-image: url(/img/background.png);
   background-repeat: no-repeat;
-  /* display: flex; */
-}
+display: flex;
+}  */
 
 .number {
   margin-top: 20px;
@@ -31,6 +31,10 @@ body {
 .answer {
   text-align: center;
 }
+.answer2 {
+  text-align: center;
+}
+
 .button.o {
   width: 100px;
   color: #ffffff;
