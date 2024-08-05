@@ -2,6 +2,15 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #a09d9d00;
 }
+.return_main {
+  max-width: 300px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 80px;
+  position: absolute;
+  box-shadow: 10px 4px 6px rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
 
 #returnHome {
   position: absolute;
