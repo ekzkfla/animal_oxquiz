@@ -10,26 +10,27 @@
   <body>
     <div>
       <!-- 번호 영역-->
-      <div class="number" id="number_id"></div>
-      <div class="number2" id="number_id2">
-        "<span class='label'value=0 ></spn>
-      </div>
+      <span class="label">
+        <div class="number" id="number_id"></div>
+        <!-- 문제 영역-->
+        <div class="problem" id="problem_id" value="0"></div>
+        <!-- 보기 영역-->
 
-      <!-- 문제 영역-->
-      <div class="problem" id="problem_id"></div>
-      <div class="problem2" id="problem_id2"></div>
-      <!-- 보기 영역-->
-      <!-- <div class="answer" id="answer_id"></div>  삭제필요-->
-      <div class="answer2" id="answer_id2">
-        <button type="button" class="button o" onclick="btnOFunc();">O</button>
-        <button type="button" class="button x" onclick="btnXFunc();">X</button>
-      </div>
-      <!-- 광고 영역-->
-      <div class="admin"></div>
-      <!-- 기능 영역-->
+        <div class="answer" id="answer_id">
+          <button type="button" class="button o" onclick="btnOFunc();">
+            O
+          </button>
+          <button type="button" class="button x" onclick="btnXFunc();">
+            X
+          </button>
+        </div>
+        <!-- 광고 영역-->
+        <div class="admin"></div>
+        <!-- 기능 영역-->
+      </span>
     </div>
   </body>
-  <script type="text/javascript" src="script.js"></script>
   <script type="text/javascript" src="script/questionsList.js"></script>
+  <script type="text/javascript" src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 </html>
