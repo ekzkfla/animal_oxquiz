@@ -37,7 +37,7 @@ function btnOFunc() {
     score++;
   }
   startNum++;
-  // btnResFunc();    나중에 활성화
+  btnResFunc();
   setProblem();
 }
 
@@ -49,7 +49,7 @@ function btnXFunc() {
     score++;
   }
   startNum++;
-  // btnResFunc(); 나중에 활성화
+  btnResFunc();
   setProblem();
 }
 
