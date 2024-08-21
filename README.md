@@ -2,7 +2,7 @@
 
 ---
 
-[OXquiz](https://ekzkfla.github.io/animal_oxquiz/)
+[OX 동물 quiz](https://ekzkfla.github.io/animal_oxquiz/)
 
 ## OX 퀴즈 접근 페이지
 
