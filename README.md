@@ -1,3 +1,5 @@
+# https://ekzkfla.github.io/animal_oxquiz/ OX 퀴즈 접근 페이지
+
 # 동물 OX 퀴즈 개발
 
 ## 일반인도 풀 수 있는 간단한 OX 퀴즈를 이용하여 이벤트 진행을 예정
