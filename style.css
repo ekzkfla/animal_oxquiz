@@ -2,7 +2,7 @@ body {
   background-color: #fce3c2;
 }
 /* .background {
-  background-image: url(/img/background.png);
+  background-image: url(/img/backhome.png);
   background-repeat: no-repeat;
 display: flex;
 }  */
@@ -11,6 +11,7 @@ display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
+  font-size: 200%;
 }
 
 .label {
@@ -35,12 +36,13 @@ display: flex;
 }
 
 .button.o {
-  width: 100px;
+  width: 200px;
+  height: 100px;
   color: #ffffff;
   background: #f88379;
   border: 2px solid #ffffff;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 50px;
   margin-right: 10px;
 }
 .button.o:hover {
@@ -59,12 +61,13 @@ display: flex;
 }
 
 .button.x {
-  width: 100px;
+  width: 200px;
+  height: 100px;
   color: #ffffff;
   background: #f88379;
   border: 2px solid #ffffff;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 50px;
   margin-left: 10px;
 }
 .button.x:hover {

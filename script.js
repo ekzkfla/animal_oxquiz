@@ -9,7 +9,7 @@ function init() {
   answer_id = document.getElementById("answer_id");
 
   startNum = 0;
-  endNum = 6;
+  endNum = 10;
   score = 0;
   setProblem();
 }
@@ -19,6 +19,7 @@ init();
 function setProblem() {
   problem_id.innerHTML = problem_arr[1][startNum];
   problem_id.setAttribute("answer", problem_arr[2][startNum]);
+  problem_id.setAttribute("reason", problem_arr[3][startNum]);
   if (startNum == endNum) {
     problem_id.innerHTML = "종료!";
     number_id.innerHTML = "<span class='lable'><결과보기></span>";
@@ -35,10 +36,12 @@ function btnOFunc() {
   selectAnswer = "O";
   if (answer == selectAnswer) {
     score++;
+    btnReasonFunc();
+    startNum++;
+    setProblem();
+  } else if (answer != selectAnswer) {
+    wrongAlertFunc();
   }
-  startNum++;
-  btnResFunc();
-  setProblem();
 }
 
 /* X버튼 함수 */
@@ -47,10 +50,33 @@ function btnXFunc() {
   selectAnswer = "X";
   if (answer == selectAnswer) {
     score++;
+    btnReasonFunc();
+    startNum++;
+    setProblem();
+  } else if (answer != selectAnswer) {
+    wrongAlertFunc();
   }
-  startNum++;
-  btnResFunc();
-  setProblem();
+}
+
+/* 버튼 설명  함수 */
+function btnReasonFunc() {
+  Swal.fire({
+    title: "정답!",
+    text: "",
+    html: document.getElementById("problem_id").getAttribute("reason"),
+    icon: "success",
+    confirmButtonColor: "#d33",
+    confirmButtonText: "닫기",
+    allowQutsideClick: false,
+  });
+}
+/* 틀림 알림 함수 */
+function wrongAlertFunc() {
+  Swal.fire({
+    icon: "error",
+    title: "이런...",
+    text: "이거 아닌거 같아요... 다른거 찾아볼까요!",
+  });
 }
 
 /* 결과보기 버튼 함수 */
