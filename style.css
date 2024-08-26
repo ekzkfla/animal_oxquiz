@@ -44,6 +44,7 @@ display: flex;
   padding: 10px;
   border-radius: 50px;
   margin-right: 10px;
+  font-size: 35pt;
 }
 .button.o:hover {
   background: #e63a00;
@@ -69,6 +70,7 @@ display: flex;
   padding: 10px;
   border-radius: 50px;
   margin-left: 10px;
+  font-size: 35pt;
 }
 .button.x:hover {
   background: #e63a00;

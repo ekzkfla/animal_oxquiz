@@ -84,7 +84,7 @@ function btnResFunc() {
   Swal.fire({
     title: "",
     text: "",
-    html: "<b>당신의 점수는 " + score + "점입니다.</b>",
+    html: "<b>점수는 " + score + "점 만점!!! 여러분이 주렁주렁 퀴즈왕!!</b>",
     icon: "success",
     confirmButtonColor: "#d33",
     confirmButtonText: "닫기",
